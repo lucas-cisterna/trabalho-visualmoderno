@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: #f1f5f9;
+}
+
+main {
+  min-height: 100vh;
+  padding: 20px;
+  background: #fff;
+}
+
+section {
+  background: #ffffff;
+  width: 100%;
+}
+.cima{
+  display: flex;
+  align-items: center;
+  margin-top: 5%;
+}
+#voltar{
+  font-size: 1.2em;
+  width: 13%;
+  height: 5vh;
+  background: #fff;
+  border: solid 1px #b4b4b4;
+  border-radius: 10px;
+  
+}
+#dinheiro  {
+  text-align: center;
+  font-size: 1.5em;
+  color: #000;
+  margin-left: 10%;
+}
+#cartao  {
+  text-align: left;
+  font-size: 1.5em;
+  color: #000;
+  margin-top: 10%;
+}
+.cartao-b {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+.cartao-b button {
+  padding: 5px 5px;
+  border-radius: 20px;
+  border: 3px solid #000000;
+  color: #000000;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.cartao-b img {
+  width: 140px;
+  border-radius: 14px;
+}
+.cartao-b h1 {
+  position: absolute;
+  top: 26.5vh;
+  font-size: 1.2em;
+  margin-left: 2%;
+  color: #b1b1b1;
+}
+.metodo h1 {
+  text-align: left;
+  font-size: 1.5em;
+  color: #000;
+  margin-top: 10%;
+}
+
+.metodo button {
+  height: 10%;
+  width: 100%;
+  padding: 30px;
+  border-radius: 14px;
+  border: none;
+  margin-top: 12px;
+  color: #000000;
+  text-align: left;
+  font-size: 1.2em;
+  font-weight: 500;
+  display: flex;
+}
+#frase{
+  width: 95%;
+}
+#seta{
+  width: 5%;
+}
+
